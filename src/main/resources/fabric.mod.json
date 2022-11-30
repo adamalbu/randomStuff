@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "randoms",
+  "version": "${version}",
+
+  "name": "Random Stuff",
+  "description": "Just a bunch of random stuff I put in",
+  "authors": [
+    "Adam Albu"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/randoms/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.adamprojects.randomstuff.Randoms"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
